@@ -2,9 +2,9 @@ const config = {
   "ownerID": "359835581456580618",
   "admins": [],
   "support": [],
-  "token": "NTc5MTcxOTE4MjE3ODcxMzcx.XOBgNQ.PI1zxTYeao9E3WkJF22AaxTCF_8",
+  "token": process.env.BOT_TOKEN,
   "dashboard" : {
-    "oauthSecret": "xbYXfZ5s7VjwH667tGGPXuYATRbPnYM2",
+    "oauthSecret": process.env.BOT_SECRET,
     "callbackURL": `http://localhost:3030/callback`,
     "sessionSecret": "testing",
     "domain": "localhost",
